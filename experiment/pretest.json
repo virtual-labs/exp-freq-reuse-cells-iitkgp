@@ -1,114 +1,114 @@
   {
 	  "version": 2.0,
   "questions": [
-    {
-    "question": "1. What does 'pathloss' fundamentally describe in a wireless communication system?",
+      {
+    "question": "1. What is the fundamental concept of frequency reuse in a cellular system?",
     "answers": {
-      "a": "The signal amplification at the transmitter.",
-      "b": "The reduction in signal power density as it propagates through space.",
-      "c": "The speed of the data being transmitted.",
-      "d": "The total power consumed by the receiver."
+      "a": "Assigning a unique frequency to every user in the network.",
+      "b": "Using the same set of frequencies in different cells that are geographically separated.",
+      "c": "Using different frequencies for voice calls and data transmission.",
+      "d": "Allowing two adjacent cells to share the exact same frequency set."
     },
     "correctAnswer": "b",
     "difficulty": "beginner"
   },
   {
-    "question": "2. If the transmitter power is doubled, what is the expected change in the received signal strength, assuming all other factors are constant?",
+    "question": "2. What are 'co-channel cells'?",
     "answers": {
-      "a": "It will be halved.",
-      "b": "It will be squared.",
-      "c": "It will also double (or increase by 3 dB).",
-      "d": "It will not change."
-    },
-    "correctAnswer": "c",
-    "difficulty": "beginner"
-  },
-  {
-    "question": "3. As the distance between the transmitter and receiver increases, what generally happens to the pathloss?",
-    "answers": {
-      "a": "It decreases.",
-      "b": "It increases.",
-      "c": "It stays the same.",
-      "d": "It becomes zero."
-    },
-    "correctAnswer": "b",
-    "difficulty": "beginner"
-  },
-  {
-    "question": "4. A larger 'pathloss exponent' value typically implies which kind of environment?",
-    "answers": {
-      "a": "An open field with a clear line of sight.",
-      "b": "A dense urban area with many buildings and obstacles.",
-      "c": "A perfect vacuum (free space).",
-      "d": "An environment with no signal loss."
-    },
-    "correctAnswer": "b",
-    "difficulty": "medium"
-  },
-  {
-    "question": "5. In typical propagation models, how does increasing the carrier frequency affect the pathloss for a fixed distance?",
-    "answers": {
-      "a": "It decreases the pathloss.",
-      "b": "It has no effect on the pathloss.",
-      "c": "It increases the pathloss.",
-      "d": "It only affects the signal's speed, not its loss."
-    },
-    "correctAnswer": "c",
-    "difficulty": "medium"
-  },
-  {
-    "question": "6. What is the general effect of increasing the transmitter antenna height on the received signal strength?",
-    "answers": {
-      "a": "It decreases the received signal strength.",
-      "b": "It has no predictable effect.",
-      "c": "It increases the received signal strength, often by clearing obstructions.",
-      "d": "It only changes the signal's frequency."
-    },
-    "correctAnswer": "c",
-    "difficulty": "beginner"
-  },
-  {
-    "question": "7. How does raising the receiver antenna height typically impact the received signal strength?",
-    "answers": {
-      "a": "It generally improves the received signal strength.",
-      "b": "It generally degrades the received signal strength.",
-      "c": "It has no impact on the received signal strength.",
-      "d": "It inverts the phase of the signal."
-    },
-    "correctAnswer": "a",
-    "difficulty": "beginner"
-  },
-  {
-    "question": "8. What is the primary purpose of using a pathloss prediction formula?",
-    "answers": {
-      "a": "To calculate the exact manufacturing cost of a transmitter.",
-      "b": "To estimate the received signal strength at various locations.",
-      "c": "To determine the color of the antenna.",
-      "d": "To measure the speed of light."
-    },
-    "correctAnswer": "b",
-    "difficulty": "medium"
-  },
-  {
-    "question": "9. A pathloss exponent of two is characteristic of what ideal environment?",
-    "answers": {
-      "a": "A dense forest.",
-      "b": "A submarine communication channel.",
-      "c": "An indoor office with many walls.",
-      "d": "Free space, with no obstructions."
+      "a": "Cells that are immediately next to each other.",
+      "b": "Cells that use two different, non-overlapping frequency bands.",
+      "c": "Cells that belong to a different network operator.",
+      "d": "Cells that are assigned the same set of frequencies."
     },
     "correctAnswer": "d",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "3. What is the primary type of interference caused by co-channel cells?",
+    "answers": {
+      "a": "Adjacent channel interference",
+      "b": "Co-channel interference",
+      "c": "Intersymbol interference",
+      "d": "Cross-talk"
+    },
+    "correctAnswer": "b",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "4. What is the main advantage of using the frequency reuse technique?",
+    "answers": {
+      "a": "It increases the overall capacity of the network.",
+      "b": "It completely eliminates all forms of interference.",
+      "c": "It simplifies the hardware design of a mobile phone.",
+      "d": "It increases the signal strength in every cell."
+    },
+    "correctAnswer": "a",
     "difficulty": "medium"
   },
   {
-    "question": "10. To find the final received signal strength (in logarithmic units like dBm), the calculated pathloss is typically...",
+    "question": "5. In frequency reuse, what does a 'cluster' represent?",
     "answers": {
-      "a": "Subtracted from the transmitter power (also in logarithmic units).",
-      "b": "Added to the transmitter power.",
-      "c": "Multiplied by the transmitter power.",
-      "d": "Ignored, as it's not part of the calculation."
+      "a": "A group of users connected to the same cell tower.",
+      "b": "A group of cells in which the entire available frequency spectrum is used exactly once.",
+      "c": "All the cells that are experiencing interference at the same time.",
+      "d": "A single, large cell designed to cover a wide rural area."
+    },
+    "correctAnswer": "b",
+    "difficulty": "medium"
+  },
+  {
+    "question": "6. What is the 'frequency reuse distance'?",
+    "answers": {
+      "a": "The distance between a mobile phone and the nearest cell tower.",
+      "b": "The radius of a single cell.",
+      "c": "The distance between the centers of the two nearest co-channel cells.",
+      "d": "The distance between two adjacent cells."
+    },
+    "correctAnswer": "c",
+    "difficulty": "medium"
+  },
+  {
+    "question": "7. What is the main consequence of using a **small** cluster size?",
+    "answers": {
+      "a": "The system capacity decreases, but co-channel interference also decreases.",
+      "b": "The system capacity increases, but co-channel interference also increases.",
+      "c": "The frequency reuse distance becomes larger.",
+      "d": "Both system capacity and co-channel interference decrease."
+    },
+    "correctAnswer": "b",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "8. What is the main consequence of using a **large** cluster size?",
+    "answers": {
+      "a": "Co-channel interference is reduced, but the total system capacity is also reduced.",
+      "b": "Co-channel interference is increased, but the total system capacity is also increased.",
+      "c": "The physical size of each cell must be increased.",
+      "d": "Both co-channel interference and system capacity increase."
     },
     "correctAnswer": "a",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "9. How can co-channel interference be reduced?",
+    "answers": {
+      "a": "By moving the co-channel cells closer to each other.",
+      "b": "By increasing the cluster size.",
+      "c": "By decreasing the cluster size.",
+      "d": "By making all cells use the same set of frequencies."
+    },
+    "correctAnswer": "b",
+    "difficulty": "medium"
+  },
+  {
+    "question": "10. For good call quality, what must be true about the signal-to-interference ratio?",
+    "answers": {
+      "a": "The ratio must be as low as possible.",
+      "b": "The desired signal power should be much higher than the interference power.",
+      "c": "The desired signal power should be equal to the interference power.",
+      "d": "The ratio is not related to call quality."
+    },
+    "correctAnswer": "b",
     "difficulty": "medium"
   }
 
