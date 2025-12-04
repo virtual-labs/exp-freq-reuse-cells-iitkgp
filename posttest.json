@@ -1,0 +1,117 @@
+
+  {
+	  "version": 2.0,
+  "questions": [
+     {
+    "question": "1. What key factor determines the minimum separation distance required between co-channel cells?",
+    "answers": {
+      "a": "The physical size of the cell tower",
+      "b": "The cluster size",
+      "c": "The number of users in the cell",
+      "d": "The type of mobile phone being used"
+    },
+    "correctAnswer": "b",
+    "difficulty": "medium"
+  },
+  {
+    "question": "2. A small cluster size implies what about the number of cells within that cluster?",
+    "answers": {
+      "a": "A small number of cells",
+      "b": "A large number of cells",
+      "c": "The number of cells is variable and unrelated",
+      "d": "The cluster has no cells"
+    },
+    "correctAnswer": "a",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "3. What technique involves subdividing a congested cell into smaller cells to increase capacity?",
+    "answers": {
+      "a": "Cell sectoring",
+      "b": "Frequency hopping",
+      "c": "Cell splitting",
+      "d": "Channel coding"
+    },
+    "correctAnswer": "c",
+    "difficulty": "medium"
+  },
+  {
+    "question": "4. What is the primary purpose of implementing 'cell sectoring' at a base station?",
+    "answers": {
+      "a": "To increase the geographic size of a single cell",
+      "b": "To reduce co-channel interference",
+      "c": "To allow all cells to use the same frequency",
+      "d": "To decrease the number of cell towers"
+    },
+    "correctAnswer": "b",
+    "difficulty": "medium"
+  },
+  {
+    "question": "5. How does cell sectoring primarily achieve its goal of reducing interference?",
+    "answers": {
+      "a": "By increasing the power of the transmitted signal",
+      "b": "By using directional antennas",
+      "c": "By making the cells physically smaller",
+      "d": "By assigning different frequencies to each sector"
+    },
+    "correctAnswer": "b",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "6. What is a common trade-off or disadvantage of implementing cell sectoring?",
+    "answers": {
+      "a": "It reduces the total capacity of the cell",
+      "b": "It increases the number of handoffs for moving users",
+      "c": "It requires all users to have special phones",
+      "d": "It completely eliminates the need for co-channel cells"
+    },
+    "correctAnswer": "b",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "7. How might a large natural obstruction, like a mountain, affect co-channel interference?",
+    "answers": {
+      "a": "It would significantly increase the interference",
+      "b": "It would have no effect on interference",
+      "c": "It could decrease the interference by blocking the signal path",
+      "d": "It would change the frequencies used by the cells"
+    },
+    "correctAnswer": "c",
+    "difficulty": "medium"
+  },
+  {
+    "question": "8. Why is a cluster size of one, where every cell uses all available frequencies, generally avoided?",
+    "answers": {
+      "a": "It would cause unmanageably high co-channel interference",
+      "b": "It is too complex to build the base stations",
+      "c": "It would provide very low system capacity",
+      "d": "It would require very large, tall cell towers"
+    },
+    "correctAnswer": "a",
+    "difficulty": "medium"
+  },
+  {
+    "question": "9. In a cellular system using frequency reuse, the signal-to-interference ratio can be best improved by...",
+    "answers": {
+      "a": "decreasing the power of all base stations.",
+      "b": "increasing the distance between co-channel cells.",
+      "c": "decreasing the distance between co-channel cells.",
+      "d": "using omnidirectional antennas everywhere."
+    },
+    "correctAnswer": "b",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "10. When 'cell splitting' is performed, what typically happens to the original cluster size?",
+    "answers": {
+      "a": "The cluster size must be increased",
+      "b": "The cluster size must be decreased",
+      "c": "The cluster size can remain the same",
+      "d": "The concept of a cluster is eliminated"
+    },
+    "correctAnswer": "c",
+    "difficulty": "advanced"
+  }
+
+  ]
+}
